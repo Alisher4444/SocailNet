@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="creatingnew.kz.salemgramm.AddPostActivity"
+    android:background="@drawable/main_background"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/press_me"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/messageEditText"
+        android:gravity="center"
+        android:hint="Enter message"
+        android:textColorHint="#E3E3E3"
+        android:background="#33ffffff"
+        android:layout_marginBottom="30dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/postButton"
+        android:text="Post"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:textSize="20sp"
+        />
+
+
+
+
+</LinearLayout>
